@@ -9,6 +9,7 @@ web:
   - php7fpm
 
 php7fpm:
- image: php:7-fpm-alpine-custom 
+ image: php:7-fpm-alpine
+ #build: .
  volumes:
   - ./www:/www
